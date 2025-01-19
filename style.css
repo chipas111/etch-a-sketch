@@ -1,3 +1,12 @@
+.wrapper {
+    width: 600px;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 16px 16px 0px 0px;
+    background-color: #d0d0f9;
+}
+
 .container {
     display: grid;
     width: 600px;
@@ -6,5 +15,16 @@
 }
 
 .grid-item {
-    border: 1px solid #ddd;
+    border: 1px solid #310086;
+    transition: opacity 0.2s ease;
+}
+
+button {
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: #bcaeef;
 }
